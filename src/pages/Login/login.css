@@ -1,0 +1,138 @@
+.container {
+  height: 940px;
+  width: 100%;
+  background: linear-gradient(to bottom, #f7d7a8, rgba(217, 217, 217, 0)),
+    url("../../assets/images/loginBG.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.triangle {
+  position: absolute;
+  top: 230px;
+  left: 87px;
+  width: 800px;
+  height: 538px;
+  backdrop-filter: blur(8px);
+  z-index: 10;
+}
+.triangle-up {
+  position: absolute;
+  top: 230px;
+  left: 80px;
+  width: 800px;
+  height: 538px;
+
+  background: linear-gradient(253.87deg, #f0c17c, rgba(217, 217, 217, 0));
+  clip-path: polygon(50% 0%, 0% 100%, 100% 80%);
+}
+
+.circle1 {
+  border-radius: 50%;
+  position: absolute;
+  width: 111px;
+  height: 111px;
+  left: 158px;
+  top: 116px;
+
+  background: radial-gradient(
+      70% 70% at 70% 64.8%,
+      rgba(243, 146, 0, 0.6) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: inset -12px -7px 25px rgba(0, 0, 0, 0.25);
+}
+.circle2 {
+  border-radius: 50%;
+  position: absolute;
+  width: 38.49px;
+  height: 38.49px;
+  left: 1057.34px;
+  top: 49.51px;
+
+  background: linear-gradient(
+    175.92deg,
+    #fff7e2 3.25%,
+    #fce3bb 38.06%,
+    #edc17e 69.79%,
+    #f39200 101.52%
+  );
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25),
+    inset 12px 7px 35px rgba(255, 255, 255, 0.25),
+    inset -5px -6px 23px rgba(0, 0, 0, 0.25);
+  transform: matrix(-0.55, -0.83, -0.83, 0.55, 0, 0);
+}
+
+.circle3 {
+  border-radius: 50%;
+  position: absolute;
+  width: 143.6px;
+  height: 143.6px;
+  left: 1565.52px;
+  top: 143px;
+
+  background: radial-gradient(
+      70% 70% at 70% 64.8%,
+      rgba(243, 146, 0, 0.6) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: inset -12px -7px 25px rgba(0, 0, 0, 0.25);
+  transform: rotate(57.8deg);
+}
+
+.circle4 {
+  border-radius: 50%;
+  position: absolute;
+  width: 62.8px;
+  height: 62.8px;
+  left: 913.02px;
+  top: 730.38px;
+
+  background: linear-gradient(
+    175.92deg,
+    #fff7e2 3.25%,
+    #fce3bb 38.06%,
+    #edc17e 69.79%,
+    #f39200 101.52%
+  );
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25),
+    inset 12px 7px 35px rgba(255, 255, 255, 0.25),
+    inset -5px -6px 23px rgba(0, 0, 0, 0.25);
+  transform: matrix(-0.55, -0.83, -0.83, 0.55, 0, 0);
+  z-index: 20;
+}
+
+.imgLB {
+  /* Rectangle */
+  position: absolute;
+  width: 437px;
+  height: 437px;
+  left: 0px;
+  top: 503px;
+  background: url("../../assets/images/RBImg.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 15;
+}
+.grid {
+  position: absolute;
+  width: 495.67px;
+  height: 573.33px;
+  top: 465px;
+  left: 1447.3px;
+  gap: 0px;
+  opacity: 0px;
+}
+.loginForm {
+  position: absolute;
+  width: 880px;
+  height: 486px;
+  top: 230px;
+  left: 619px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  z-index: 25;
+}

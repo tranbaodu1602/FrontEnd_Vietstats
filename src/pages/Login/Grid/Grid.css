@@ -1,0 +1,25 @@
+.grid-container {
+  position: relative;
+  width: 494px;
+  height: 494px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-line {
+  width: 494px;
+  height: 1px;
+  background-color: rgba(83, 103, 189, 0.1);
+}
+
+.vertical-line {
+  width: 1px;
+  height: 445px;
+  background-color: rgba(83, 103, 189, 0.1);
+  position: absolute;
+  left: 0;
+}
+
+.vertical-line:nth-child(n + 11) {
+  left: calc((494px / 9) * (10 - (10 - (n - 10))) - 1);
+}
