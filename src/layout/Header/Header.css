@@ -1,0 +1,77 @@
+.headerContainer {
+  width: 2080px;
+  height: 60px;
+  background-color: transparent;
+  border-bottom: 4px solid rgba(223, 161, 40, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.headerLeft {
+  width: 100px;
+  height: 60px;
+  display: flex;
+
+  align-items: center;
+  height: 100%;
+}
+.hamburger-icon {
+  height: 25px;
+  width: 24px;
+  display: inline-block;
+  cursor: pointer;
+  align-items: center;
+}
+.hamburger-icon span {
+  display: block;
+  width: 24px;
+  height: 4px;
+  background-color: rgba(223, 161, 40, 1);
+  margin: 3px 0;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.headerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 60px;
+  gap: 20px;
+}
+.headerLanguage {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 73px;
+  height: 25px;
+}
+.headerBellIcon {
+  width: 33px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.bellicon {
+  display: inline-block;
+}
+.notification-count {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: -5px;
+  text-align: center;
+  right: 2px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  /* padding: 2px 6px; */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+.headerInfo {
+  width: 124px;
+}

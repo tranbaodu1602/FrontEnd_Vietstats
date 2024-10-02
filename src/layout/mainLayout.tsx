@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header/Header";
 import Sider from "./Sider/Sider";
+import "./mainLayout.css";
 
 const mainLayout = ({ children }: any) => {
   return (
-    <div>
+    <div className="layoutContainer">
       <Header></Header>
-      <div>
+      <div className="layoutContent">
         <Sider></Sider>
         <div className="content">{children}</div>
       </div>

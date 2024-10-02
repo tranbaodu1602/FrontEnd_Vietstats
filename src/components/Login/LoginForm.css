@@ -6,11 +6,21 @@
   overflow: hidden;
   border-radius: 30px;
 }
+.topmenu {
+  position: absolute;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  top: 40px;
+  height: 50px;
+  width: 100px;
+  z-index: 30;
+  margin-top: 40px;
+}
 .formtitle {
   position: absolute;
   width: 113px;
   height: 38px;
-  top: 60px;
+  top: 70px;
   left: 180px;
   gap: 0px;
   opacity: 0px;

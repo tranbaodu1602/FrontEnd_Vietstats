@@ -129,8 +129,11 @@
   position: absolute;
   width: 880px;
   height: 486px;
-  top: 230px;
-  left: 619px;
+  /* top: 230px;
+  left: 619px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   gap: 0px;
   border-radius: 30px;
   opacity: 0px;

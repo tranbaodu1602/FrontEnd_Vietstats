@@ -2,6 +2,7 @@ import "./LoginForm.css";
 import { useNavigate } from "react-router-dom";
 import image from "../../assets/images/loginFormIMG.png";
 import Eye from "../../icons/Eye";
+import LanguageMenu from "../LangugeMenu/LanguageMenu";
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -17,6 +18,9 @@ const LoginForm = () => {
   };
   return (
     <div className="rectangle">
+      <div className="topmenu">
+        <LanguageMenu />
+      </div>
       <div className="left">
         <div className="formtitle">Sign In</div>
         <div className="formContent">

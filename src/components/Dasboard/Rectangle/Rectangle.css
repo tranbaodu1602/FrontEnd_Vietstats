@@ -1,0 +1,88 @@
+.listRectangle {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.Rectangle {
+  width: 499px;
+  height: 99px;
+  top: 1316px;
+  left: 1577px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.Rectangle:hover {
+  transform: scale(1.03);
+}
+.rectangleTitle {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  gap: 6px;
+  margin: 20px;
+}
+.rectangleLabel {
+  width: 132px;
+  height: 20px;
+  top: 970px;
+  left: 1608px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(61, 61, 61, 0.7);
+}
+.rectangleTotal {
+  width: 173px;
+  height: 30px;
+  top: 1242px;
+  left: 1608px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+}
+.rectangleposition {
+  position: relative;
+}
+.rectangleInscreate {
+  width: 124px;
+  height: 28px;
+  position: absolute;
+  bottom: 25px;
+  right: -235px;
+  padding: 4px 20px 4px 20px;
+  gap: 12px;
+  border-radius: 22px;
+  border: 1px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  display: flex;
+  justify-items: start;
+  align-items: center;
+}
+
+.up {
+  background: rgba(67, 195, 120, 0.2);
+  border: 1px solid rgba(67, 195, 120, 1);
+}
+.dow {
+  background: rgba(255, 105, 104, 0.2);
+  border: 1px solid rgba(255, 105, 104, 1);
+}

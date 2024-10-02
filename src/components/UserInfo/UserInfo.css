@@ -1,0 +1,32 @@
+.userInfo {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.avt {
+  margin-right: 3px;
+  height: 40px;
+  width: 40px;
+}
+.AvtImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(223, 161, 40, 1);
+}
+.userID {
+  width: 50px;
+}
+.userArrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid rgba(223, 161, 40, 1);
+}

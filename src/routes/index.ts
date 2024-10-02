@@ -1,9 +1,9 @@
 import Login from "../pages/Login/Login";
-import Dashboard from "../pages/Dashboard/Dashboard";
+import DashboardPage from "../pages/Dashboard/DashboardPage";
 
 const Route2 = [
   { path: "/", component: Login, layout: null },
-  { path: "/dashboard", component: Dashboard, layout: "1" },
+  { path: "/dashboard", component: DashboardPage, layout: "1" },
 ];
 
 export { Route2 };

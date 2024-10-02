@@ -1,0 +1,30 @@
+.siderContainer {
+  width: 249px;
+  height: 1300px;
+  background-color: white;
+  padding: 20px 14px;
+}
+.ant-menu-light.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none;
+}
+.ant-menu-item-selected {
+  background-color: rgba(223, 161, 40, 1) !important;
+  color: white !important;
+}
+
+.ant-menu-item-selected .anticon {
+  color: white !important;
+}
+.ant-menu-item-selected:hover {
+  color: white !important;
+}
+.ant-menu-item {
+  height: 48px;
+  color: black;
+}
+.ant-menu-item .anticon {
+  color: black;
+}
+.ant-menu-item:hover {
+  color: black !important;
+}
