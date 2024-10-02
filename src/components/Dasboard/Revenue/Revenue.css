@@ -1,0 +1,78 @@
+.revenueTitle {
+  height: 26px;
+  margin: 16px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.revenueName {
+  width: 86px;
+  height: 26px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+}
+.revenueContent {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  width: 414px;
+  height: 317px;
+}
+.revenueLeft {
+  margin-top: 35px;
+  width: 210px;
+}
+.revenueRight {
+  margin-top: 70px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.revenueRight .today {
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(148, 156, 169, 1);
+}
+.revenueRight .amount1 {
+  font-family: Lexend;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+}
+.revenueRight .amount1 .amount2 {
+  font-family: Lexend;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+}
+
+.revenueRight .growth {
+  background-color: rgba(231, 255, 233, 1);
+  height: 28px;
+  width: 44px;
+  color: green;
+  border: 4px;
+}
+
+.revenueRight .vsYesterday {
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(148, 156, 169, 1);
+}

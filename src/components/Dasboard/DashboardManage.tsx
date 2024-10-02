@@ -6,6 +6,10 @@ import Rectangle from "./Rectangle/Rectangle";
 import LearnActivityChart from "./LearnActivityChart/LearnActivityChart";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
+import Revenue from "./Revenue/Revenue";
+import NewClass from "./NewClass/NewClass";
+import Calendar from "./Calendar/Calendar";
+import ChangeDay from "./ChangeDay/ChangeDay";
 
 const DashboardManage = () => {
   const [date, setDate] = useState<Date>(new Date());
@@ -23,6 +27,7 @@ const DashboardManage = () => {
   };
   return (
     <div className="dashboardContainer">
+      {/* Dashboard Top UI */}
       <div className="dashboardTop">
         <div className="dashboardTopLeft">
           <div className="dashboardTopLeft1">
@@ -35,12 +40,28 @@ const DashboardManage = () => {
           <div className="dashboardTopLeft2">
             <Card />
           </div>
-          <div className="dashboardTopLeft3">3</div>
+          <div className="dashboardTopLeft3">
+            <div className="dashboardTopLeft3Class">
+              <NewClass />
+            </div>
+            <div className="dashboardTopLeft3Revenue">
+              <Revenue />
+            </div>
+          </div>
         </div>
-        <div className="dashboardTopRight">1</div>
+        <div className="dashboardTopRight">
+          <div className="dashboarCalendar">
+            <Calendar />
+          </div>
+          <div className="dashboarShedule">
+            <ChangeDay />
+          </div>
+        </div>
       </div>
+      {/* Dashboard Buttom UI */}
       <div className="dashboardBottom">
         <div className="dashboardBottomLeft">
+          {/* ChartUI */}
           <div className="dashboardBottomLeftHeader">
             <div className="dashboardBottomLeftTitle">Learn Activity</div>
             <div className="dashboardBottomLeftMounth">
@@ -69,6 +90,7 @@ const DashboardManage = () => {
             <LearnActivityChart />
           </div>
         </div>
+        {/* --- */}
         <div className="dashboardBottomRight">
           <Rectangle />
         </div>

@@ -1,0 +1,22 @@
+.dropdown {
+  width: 75px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  background: rgba(211, 211, 211, 1);
+  padding: 5px 5px;
+}
+.viewmenu {
+  margin: 5px;
+}
+.menu {
+  width: 70px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: rgba(211, 211, 211, 1);
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}

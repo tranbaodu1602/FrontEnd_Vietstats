@@ -1,0 +1,125 @@
+.changeDayContainer {
+  padding: 16px;
+}
+.changeDayTitle {
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+  height: 30px;
+}
+.changeDayTitle span {
+  font-weight: 600;
+}
+.changeDay {
+  margin-top: 8px;
+  display: flex;
+  gap: 8;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7px;
+}
+
+.boxItem {
+  height: 82px;
+  width: 68px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(240, 240, 240, 1);
+}
+.boxSelected {
+  border-bottom: 2px solid black;
+}
+.dayItem {
+  width: 48px;
+  height: 68px;
+  background-color: rgba(249, 236, 212, 1);
+  border-radius: 13px;
+  color: rgba(148, 156, 169, 1);
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-family: Lexend;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.25px;
+  letter-spacing: 0.02em;
+}
+.selected {
+  background-color: rgba(223, 161, 40, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 55px 0px rgba(15, 18, 63, 0.25);
+}
+.circles {
+  display: flex;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10px;
+}
+.circle {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: rgba(55, 125, 255, 1);
+}
+.shedule {
+  height: 326px;
+  margin-top: 16px;
+  margin-right: 8px;
+}
+.sheduleItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sheduleTime {
+  width: 86px;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(148, 156, 169, 1);
+}
+.sheduleContent {
+  width: 229px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.66px;
+  text-align: left;
+}
+.sheduleLeft {
+  width: 60px;
+  background-color: aquamarine;
+  position: relative;
+}
+.sheduleImgBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subjectTitle {
+  font-size: 16px;
+  margin-bottom: 4px;
+}

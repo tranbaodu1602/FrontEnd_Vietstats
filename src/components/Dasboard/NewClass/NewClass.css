@@ -1,0 +1,30 @@
+.newClassTitle {
+  height: 26px;
+  margin: 16px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.newClassName {
+  width: 150px;
+  height: 26px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+}
+.newClassContent {
+  width: 920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.charbar {
+  width: 725px;
+  height: 270px;
+}
