@@ -29,9 +29,10 @@ const Revenue: React.FC = () => {
       {
         label: "$",
         data: [28, 48], // data ex
-        backgroundColor: ["rgba(55, 125, 255, 1))", "rgba(55, 125, 255, 1)"],
-        borderColor: ["rgba(55, 125, 255, 1)", "rgba(55, 125, 255, 1)"],
+        backgroundColor: "rgba(55, 125, 255, 1)",
+        borderColor: "rgba(55, 125, 255, 1)",
         borderWidth: 1,
+        barThickness: 40,
       },
     ],
   };
@@ -64,7 +65,7 @@ const Revenue: React.FC = () => {
       </div>
       <div className="revenueContent">
         <div className="revenueLeft">
-          <div style={{ width: "320px", height: "220px" }}>
+          <div style={{ width: "320px", height: "240px" }}>
             <Bar data={data} options={options} height={90} width={70} />
           </div>
         </div>

@@ -86,7 +86,6 @@ const DashboardManage = () => {
             </div>
           </div>
           <div style={{ marginLeft: "67px" }}>
-            {" "}
             <LearnActivityChart />
           </div>
         </div>

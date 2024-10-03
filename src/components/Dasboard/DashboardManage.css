@@ -88,9 +88,6 @@
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
   border-radius: 16px;
 }
-.dashboarCalendar:hover {
-  transform: scale(1.01);
-}
 .dashboarShedule {
   height: 490px;
   background: rgba(255, 255, 255, 1);
@@ -134,7 +131,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
+.menuMounth:hover {
+  background-color: rgb(236, 234, 234);
+}
+
 .arrow-down {
   margin-left: 7px;
 }

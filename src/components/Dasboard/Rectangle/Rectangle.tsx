@@ -29,7 +29,7 @@ const items: Item[] = [
     key: "3",
     label: "Stopped Class",
     total: "4",
-    percent: "50",
+    percent: "5",
     inscreate: false,
   },
   {
